@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="70px"
+		android:orientation="horizontal">
+
+
+		<EditText android:id="@+id/id1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="My text edit this."
+			android:layout_weight="1" />
+		<Button android:id="@+id/sendButton" android:layout_width="wrap_content"
+			android:layout_height="60px" android:text="Send locationbr"
+			android:layout_weight="1" />
+	</LinearLayout>
+
+	<com.google.android.maps.MapView
+		android:id="@+id/myGMap" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:enabled="true"
+		android:clickable="true" android:apiKey="0xiegYhMqBQC86n1w0aJdXRABiBGIYBSsT_zINw" />
+</LinearLayout>

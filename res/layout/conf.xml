@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:scrollbars="vertical">
+	<LinearLayout android:layout_width="fill_parent"
+		android:orientation="vertical" android:layout_height="fill_parent">
+
+		<TextView android:id="@+id/textViewTitle"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="10pt" android:text="Simple Configuration">
+		</TextView>
+
+		<TextView android:id="@+id/textViewServer"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="6pt" android:text="Server">
+		</TextView>
+		<EditText android:id="@+id/EditTextServer"
+			android:layout_height="wrap_content" android:inputType="textPersonName"
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/textViewLogin"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="6pt" android:text="Login">
+		</TextView>
+		<EditText android:id="@+id/EditTextLogin"
+			android:layout_height="wrap_content" android:inputType="textEmailAddress"
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/textViewPassword"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="6pt" android:text="Password">
+		</TextView>
+		<EditText android:id="@+id/EditTextPassword"
+			android:layout_height="wrap_content" android:inputType="textPersonName"
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<TextView android:id="@+id/textViewTarget"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="6pt" android:text="Target">
+		</TextView>
+		<EditText android:id="@+id/EditTextTarget"
+			android:layout_height="wrap_content" android:inputType="textEmailAddress"
+			android:layout_width="fill_parent">
+		</EditText>
+
+		<Button android:id="@+id/ButtonSendSave" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Commit changes">
+		</Button>
+
+	</LinearLayout>
+</ScrollView>
+

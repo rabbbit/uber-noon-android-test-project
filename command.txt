@@ -1,0 +1,12 @@
+ 
+{"commandType":"SendLoc","time":"Feb 17, 2011 1:55:53 AM","token":"TOKEN","userID":"pub2"}
+
+{"commandType":"ShowPopup","parameters":{"Text":"My new awesome popup!!"},"time":"Feb 17, 2011 1:55:53 AM","token":"TOKEN","userID":"pub2"}
+
+{"commandType":"ShowPointsOnTheMap","parameters":{"GPS2Lon":"7.04663","GPS1Lat":"43.626446"},"time":"Feb 17, 2011 1:55:53 AM","token":"TOKEN","userID":"pub2"}
+
+{"commandType":"ShowPointsOnTheMap","parameters":{"GPS2Lon":"7.04843","GPS1Lat":"43.623946"},"time":"Feb 17, 2011 1:55:53 AM","token":"TOKEN","userID":"pub2"}
+
+{"commandType":"ShowPointsOnTheMap","parameters":{"GPS2Lon":"7.05763","GPS1Lat":"43.622646","Text":"True"},"time":"Feb 17, 2011 2:05:59 AM","token":"TOKEN","userID":"pub2"}
+
+{"commandType":"ShowPointsOnTheMap","parameters":{"GPS2Lon":"7.05463","GPS1Lat":"43.620646","Text":"True"},"time":"Feb 17, 2011 2:05:59 AM","token":"TOKEN","userID":"pub2"}
